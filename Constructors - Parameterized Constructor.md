@@ -24,9 +24,21 @@ To write a Python code to create a class for a person with a parameterized const
 ### PROGRAM
 
 ```
+class Person:
+    def __init__(self, name, userid):
+        self.name = name
+        self.userid = userid
+        print(self.userid)
+
+# Example usage:
+person1 = Person("John Doe", "user123")
+
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/1f6304bf-16f3-4270-b3e9-c30ad91a7ed7)
+
 
 ### RESULT
+Thus the program is executed successfully
